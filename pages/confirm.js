@@ -12,10 +12,6 @@ const confirm = () => {
 
     const [pickupCoord, setPickupCoord] = useState([0, 0]);
     const [dropoffCoord, setDropoffCoord] = useState(0, 0);
-    // const [distance, setDistance] = useState(null);
-    // const [duration, setDuration] = useState(null);
-    // const [price, setPrice] = useState(null);
-    // const [isLoading, setIsLoading] = useState(false);
 
 
     const getPickupCoordinates = (location) => {
