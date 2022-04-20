@@ -24,7 +24,7 @@ const RideSelector = ({ pickupCoord, dropoffCoord }) => {
                 {carList.map((car, index) => {
                     return (
                         <Car key={index}>
-                            <CarImage src={car.imgUrl} alt={car.service} />
+                            <CarImage src={car.imgUrl} alt={car.service} passHref={true} />
                             <CarDetails>
                                 <Service>{car.service}</Service>
                                 <Time>5 min away</Time>

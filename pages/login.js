@@ -23,9 +23,9 @@ const login = () => {
                 <title>Login</title>
                 {/* <link rel="icon" href="./uber.png" /> */}
             </Head>
-            <UberLogo src="https://i.ibb.co/n6LWQM4/Post.png" />
+            <UberLogo src="https://i.ibb.co/n6LWQM4/Post.png" passHref={true} />
             <Title>Log in to access your account</Title>
-            <HeadImage src="https://i.ibb.co/CsV9RYZ/login-image.png" />
+            <HeadImage src="https://i.ibb.co/CsV9RYZ/login-image.png" passHref={true} />
 
             <SignInButton onClick={() => signInWithPopup(auth, provider)}>Sign in with google</SignInButton>
         </Wrapper>

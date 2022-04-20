@@ -23,15 +23,15 @@ const Search = () => {
             </Head>
 
             <ButtonContainer>
-                <Link href="/">
-                    <BackButton src="https://img.icons8.com/ios-filled/50/000000/left.png" />
+                <Link href="/" passHref={true}>
+                    <BackButton src="https://img.icons8.com/ios-filled/50/000000/left.png" passHref={true} />
                 </Link>
             </ButtonContainer>
 
             <InputBox handlePickup={handlPickup} handleDropoff={handleDropoff} pickup={pickup} dropoff={dropoff} />
 
             <SavedPlaces>
-                <StarIcon src="https://img.icons8.com/ios-filled/50/ffffff/star--v1.png" />
+                <StarIcon src="https://img.icons8.com/ios-filled/50/ffffff/star--v1.png" passHref={true} />
                 Saved Places
             </SavedPlaces>
 
@@ -42,7 +42,8 @@ const Search = () => {
                     dropoff: dropoff,
                 }
 
-            }}>
+
+            }} passHref={true}>
                 <ConfirmButton>
                     Confirm Locations
                 </ConfirmButton>

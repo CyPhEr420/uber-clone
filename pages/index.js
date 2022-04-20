@@ -1,5 +1,5 @@
 import tw from "tailwind-styled-components"
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import Map from "./components/Map";
 import Link from 'next/link'
 import { auth } from '../firebase'

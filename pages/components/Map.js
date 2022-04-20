@@ -1,7 +1,6 @@
-import React from 'react'
 import mapboxgl from "!mapbox-gl";
 import tw from "tailwind-styled-components"
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 
 
 mapboxgl.accessToken = 'pk.eyJ1IjoiY3lwaGVydmsiLCJhIjoiY2t3a281Y3ZpMWkwcTJvbWx5bjd3ZWFmeiJ9.dNgWHqCrkHnDbNubm0EzRw';
